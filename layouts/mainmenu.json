@@ -1438,7 +1438,7 @@
                   },
                   "parameters": [
                     "BackLevel",
-                    "=",
+                    "False",
                     "0"
                   ]
                 }
@@ -1479,16 +1479,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "BackLevel",
-                    "False",
-                    "0"
-                  ]
-                },
                 {
                   "type": {
                     "value": "HideLayer"

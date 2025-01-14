@@ -22,7 +22,13 @@
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "index",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -71,6 +77,22 @@
       "x": 1178,
       "y": 30,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Card",
+      "persistentUuid": "5a110f27-e932-422d-a674-46c655ae3159",
+      "width": 0,
+      "x": 143,
+      "y": 132,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -315,11 +337,84 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Card",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ObjectStack",
+          "type": "ObjectStack::ObjectStack"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\cb.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 188,
+                        "y": 0
+                      },
+                      {
+                        "x": 188,
+                        "y": 268
+                      },
+                      {
+                        "x": 0,
+                        "y": 268
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "Card",
+        "children": [
+          {
+            "objectName": "Card"
+          }
+        ]
+      },
       {
         "objectName": "NewSprite"
       },
@@ -352,7 +447,7 @@
           "parameters": [
             "BackLevel",
             "False",
-            "0"
+            ""
           ]
         }
       ],
@@ -383,6 +478,54 @@
                 "yes",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Создание карт\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "4",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Card",
+                    "4 + Variable(index) * 32",
+                    "32",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "index",
+                    "+",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -423,7 +566,24 @@
             "True",
             "1"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "BackLevel",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "Scene"
@@ -431,7 +591,7 @@
           "parameters": [
             "",
             "\"MainMenu\"",
-            "yes"
+            ""
           ]
         }
       ]
@@ -449,6 +609,7 @@
       "comment": "Звук вкл выкл\n"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -597,11 +758,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
@@ -666,6 +822,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "ObjectStack",
+      "type": "ObjectStack::ObjectStack"
     },
     {
       "name": "Opacity",
