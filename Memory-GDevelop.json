@@ -199,6 +199,184 @@
         "name": "assets\\back-icon.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/lvl1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl1.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl2.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl3.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl4.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl5.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl5.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl6.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl6.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl7.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl7.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl8.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl8.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl9.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl9.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl10.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl10.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl_back/lvl_back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl_back\\lvl_back.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "music/level.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\level.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -213,6 +391,11 @@
       "name": "SoundOn",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "BackLevel",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -222,7 +405,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/selectlevel"
+      "referenceTo": "/layouts/level1"
     }
   ],
   "externalEvents": [],
@@ -230,6 +413,30 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/animatedbackandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/curvedmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/boomerang"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/parallax"
     }
   ],
   "externalLayouts": [],
