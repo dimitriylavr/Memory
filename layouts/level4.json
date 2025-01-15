@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level2",
-  "name": "Level2",
+  "mangledName": "Level4",
+  "name": "Level4",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -59,20 +59,90 @@
       "value": false
     },
     {
-      "folded": true,
       "name": "coord",
       "type": "array",
       "children": [
         {
+          "folded": true,
           "type": "array",
           "children": [
             {
               "type": "number",
-              "value": 152
+              "value": 20
             },
             {
               "type": "number",
-              "value": 125
+              "value": 150
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 334
+            },
+            {
+              "type": "number",
+              "value": 150
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 647
+            },
+            {
+              "type": "number",
+              "value": 150
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 959
+            },
+            {
+              "type": "number",
+              "value": 150
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 20
+            },
+            {
+              "type": "number",
+              "value": 400
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 334
+            },
+            {
+              "type": "number",
+              "value": 400
             }
           ]
         },
@@ -81,11 +151,11 @@
           "children": [
             {
               "type": "number",
-              "value": 491
+              "value": 647
             },
             {
               "type": "number",
-              "value": 125
+              "value": 400
             }
           ]
         },
@@ -94,50 +164,11 @@
           "children": [
             {
               "type": "number",
-              "value": 831
+              "value": 959
             },
             {
               "type": "number",
-              "value": 125
-            }
-          ]
-        },
-        {
-          "type": "array",
-          "children": [
-            {
-              "type": "number",
-              "value": 152
-            },
-            {
-              "type": "number",
-              "value": 361
-            }
-          ]
-        },
-        {
-          "type": "array",
-          "children": [
-            {
-              "type": "number",
-              "value": 491
-            },
-            {
-              "type": "number",
-              "value": 361
-            }
-          ]
-        },
-        {
-          "type": "array",
-          "children": [
-            {
-              "type": "number",
-              "value": 831
-            },
-            {
-              "type": "number",
-              "value": 361
+              "value": 400
             }
           ]
         }
@@ -344,22 +375,6 @@
       "x": 244,
       "y": 617,
       "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "MemTxt",
-      "persistentUuid": "79b04a26-ae26-42ed-b8d1-db31a76e2051",
-      "width": 0,
-      "x": 354,
-      "y": 0,
-      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -904,125 +919,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "c_tractor",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "c_tractor",
-                    "Animation",
-                    "=",
-                    "\"front\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "c_tractor",
-                    "Animation",
-                    "=",
-                    "\"back\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "c_mixer",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "c_mixer",
-                    "Animation",
-                    "=",
-                    "\"front\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "c_mixer",
-                    "Animation",
-                    "=",
-                    "\"back\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "c_grader",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "c_grader",
-                    "Animation",
-                    "=",
-                    "\"front\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "c_grader",
-                    "Animation",
-                    "=",
-                    "\"back\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "MemTxt"
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -1034,7 +930,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Работа с картами",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2395,7 +2290,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Завершение уровня",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2618,7 +2512,7 @@
               },
               "parameters": [
                 "",
-                "\"Level3\"",
+                "\"Level2\"",
                 ""
               ]
             }
