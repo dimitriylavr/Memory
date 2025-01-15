@@ -433,6 +433,132 @@
         "name": "assets\\card\\c_mixer.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "music/win.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\win.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ExplosionFog-Texture-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ExplosionFog-Texture-2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/64a424eeec46f355f121c7c3f25a37d39954b746c504a496642c49181467359c_ExplosionFog-Texture-2.png",
+          "name": "ExplosionFog-Texture-2.png"
+        }
+      },
+      {
+        "file": "assets/DarkMagicSmoke.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DarkMagicSmoke.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/015985f8d1d3aaa13173ebdf90f8e893ccb834accbe76f55adbc9dfabef145f7_DarkMagicSmoke.png",
+          "name": "DarkMagicSmoke.png"
+        }
+      },
+      {
+        "file": "assets/Glow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Glow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/054cca73b5082c5f8639999d0eee82f4f42a1b346ee9efbd013058ccc70b45ca_Glow.png",
+          "name": "Glow.png"
+        }
+      },
+      {
+        "file": "assets/card/win.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\card\\win.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Green Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button With Shadow_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3cfcef451f366e0586d68ae863db979bdeb2ec9453290b236ba3a1fbf19db418_Green Button With Shadow_Hovered.png",
+          "name": "Green Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Green Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button With Shadow_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/63f468aa943eb440db683045192c88a94de99bd6e3aa5fc0afc3d93dd8d39324_Green Button With Shadow_Idle.png",
+          "name": "Green Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Green Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3c957fd6edd0a38bee1807034ca83d582216e6e2f48058e413979f8b1f504e8b_Green Button With Shadow_Pressed.png",
+          "name": "Green Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Blue Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button With Shadow_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/37288d30c2e013a34e415fb35fffd2f7267ebd031c4380927485d7461708f810_Blue Button With Shadow_Hovered.png",
+          "name": "Blue Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Blue Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button With Shadow_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/22930cdc6b25260eef3817f1687842974261b68c84ec2a13d7f32b1a2985240f_Blue Button With Shadow_Idle.png",
+          "name": "Blue Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Blue Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/26efbc7581c47b884f5335aa7581999a75b3062aa24062a1a91955e334826d21_Blue Button With Shadow_Pressed.png",
+          "name": "Blue Button With Shadow_Pressed.png"
+        }
       }
     ],
     "resourceFolders": []

@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 64,
     "gridHeight": 64,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.7130377630690402,
+    "snap": false,
+    "zoomFactor": 0.7619362677197604,
     "windowMask": true
   },
   "objectsGroups": [],
@@ -29,29 +29,54 @@
       "value": 0
     },
     {
-      "name": "card1",
+      "name": "firstCard",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "secondCard",
       "type": "string",
       "value": ""
     },
     {
-      "name": "card2",
-      "type": "string",
-      "value": ""
+      "name": "firstCardIndex",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "secondCardIndex",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "turns",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "tractor_done",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "mixer_done",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 958.9977777777672,
+      "depth": 1,
+      "height": 959,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
       "persistentUuid": "1449a85f-aa99-4499-9c92-eb29fc6f471b",
-      "width": 1294,
-      "x": -8,
-      "y": -107,
+      "width": 1325,
+      "x": -43,
+      "y": -100,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -151,6 +176,158 @@
       "x": 256,
       "y": 384,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 268,
+      "customSize": true,
+      "depth": 1,
+      "height": 129,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StarSparks",
+      "persistentUuid": "d6c783b5-6b93-4f30-83a6-e90d1c618cc7",
+      "width": 129,
+      "x": 200,
+      "y": 649,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 268,
+      "customSize": true,
+      "depth": 1,
+      "height": 129,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StarSparks",
+      "persistentUuid": "f1fb81d8-d764-422e-83c3-e0e26dcd9895",
+      "width": 129,
+      "x": 1080,
+      "y": 645,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 129,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StarSparks",
+      "persistentUuid": "42d2b763-bc81-4a10-99b9-00ac85e667ac",
+      "width": 129,
+      "x": 195,
+      "y": 56,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 129,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StarSparks",
+      "persistentUuid": "c7712616-7fcd-498e-9c40-04352daf2377",
+      "width": 129,
+      "x": 1077,
+      "y": 58,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 129,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StarSparks",
+      "persistentUuid": "1e073ad7-51a9-4598-a431-55c7b8934747",
+      "width": 129,
+      "x": 622,
+      "y": 54,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 268,
+      "customSize": true,
+      "depth": 1,
+      "height": 129,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StarSparks",
+      "persistentUuid": "3fb910fa-c092-47f8-b37b-b86ca94f4498",
+      "width": 129,
+      "x": 639,
+      "y": 656,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 499,
+      "keepRatio": true,
+      "layer": "",
+      "name": "c_win",
+      "persistentUuid": "5ebce79c-8070-4285-84b1-f6170bac0e47",
+      "width": 788,
+      "x": 244,
+      "y": 102,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 69,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Next",
+      "persistentUuid": "e8978474-acdf-495b-b5eb-bfc017c5be59",
+      "width": 344,
+      "x": 689,
+      "y": 617,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 62.30943396226415,
+      "height": 69,
+      "layer": "",
+      "name": "Restart",
+      "persistentUuid": "70e3568c-d514-4c77-a561-b202ecbe83fd",
+      "width": 344,
+      "x": 244,
+      "y": 617,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -671,6 +848,281 @@
           ]
         }
       ]
+    },
+    {
+      "additive": true,
+      "assetStoreId": "edb6923baf2b0b51dac8f4ce53b1ec10a09243ca57fb694722d79eb5ed6a62b7",
+      "destroyWhenNoParticles": false,
+      "emitterAngleA": 0,
+      "emitterAngleB": 90,
+      "emitterForceMax": 90,
+      "emitterForceMin": 50,
+      "flow": 60,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 1500,
+      "name": "StarSparks",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 242,
+      "particleBlue2": 255,
+      "particleColor1": "74;255;242",
+      "particleColor2": "0;33;255",
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 255,
+      "particleGreen2": 33,
+      "particleLifeTimeMax": 1,
+      "particleLifeTimeMin": 0.2,
+      "particleRed1": 74,
+      "particleRed2": 0,
+      "particleSize1": 10,
+      "particleSize2": 0,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 1,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tank": -1,
+      "textureParticleName": "Glow.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 90,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "c_win",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\card\\win.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 215
+                      },
+                      {
+                        "x": 0,
+                        "y": 215
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "569b45d3c7c34f7706563239938d04ca599016ff9857ee38c945c72330d4339e",
+      "name": "Next",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 25,
+        "TopPadding": 12,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button With Shadow_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button With Shadow_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Продолжить >>>",
+          "font": "CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Продолжить >>>",
+            "font": "CantoraOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Green Button With Shadow_Pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "Restart",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 25,
+        "TopPadding": 12,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button With Shadow_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button With Shadow_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "ЕЩЁ РАЗ",
+          "font": "CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ЕЩЁ РАЗ",
+            "font": "CantoraOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button With Shadow_Pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -687,6 +1139,9 @@
           },
           {
             "objectName": "c_mixer"
+          },
+          {
+            "objectName": "c_win"
           }
         ]
       },
@@ -698,6 +1153,15 @@
       },
       {
         "objectName": "OnOff"
+      },
+      {
+        "objectName": "StarSparks"
+      },
+      {
+        "objectName": "Next"
+      },
+      {
+        "objectName": "Restart"
       }
     ]
   },
@@ -753,6 +1217,38 @@
                 "yes",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "StarSparks"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "c_win"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Next"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Restart"
               ]
             }
           ]
@@ -996,103 +1492,851 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "c_tractor",
-                "",
-                "no",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipY"
-              },
-              "parameters": [
-                "c_tractor",
-                "Flippable",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "c_tractor",
-                "Animation",
-                "=",
-                "\"front\""
-              ]
-            }
-          ]
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Трактор"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "c_mixer",
-                "",
-                "no",
+                "tractor_done",
+                "False",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "c_tractor",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "c_tractor",
+                        "Flippable",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "c_tractor",
+                        "Animation",
+                        "=",
+                        "\"front\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "secondCard",
+                        "=",
+                        "\"c_tractor\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "secondCardIndex",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "c_tractor",
+                        "Flippable",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "c_tractor",
+                        "Animation",
+                        "=",
+                        "\"front\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "firstCard",
+                        "=",
+                        "\"c_tractor\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "firstCardIndex",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "firstCard",
+                        "!=",
+                        "secondCard"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "c_tractor",
+                        "Animation",
+                        "=",
+                        "\"back\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "c_mixer",
+                        "Animation",
+                        "=",
+                        "\"back\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "firstCard",
+                        "=",
+                        "secondCard"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "tractor_done",
+                        "True",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Бетономешалка"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipY"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "c_mixer",
-                "Flippable",
+                "mixer_done",
+                "=",
                 ""
               ]
-            },
+            }
+          ],
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "c_mixer",
-                "Animation",
-                "=",
-                "\"front\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "c_mixer",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "c_mixer",
+                        "Flippable",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "c_mixer",
+                        "Animation",
+                        "=",
+                        "\"front\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "secondCard",
+                        "=",
+                        "\"c_mixer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "secondCardIndex",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "c_mixer",
+                        "Flippable",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "c_mixer",
+                        "Animation",
+                        "=",
+                        "\"front\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "firstCard",
+                        "=",
+                        "\"c_mixer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "firstCardIndex",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "firstCard",
+                        "!=",
+                        "secondCard"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "c_tractor",
+                        "Animation",
+                        "=",
+                        "\"back\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "c_mixer",
+                        "Animation",
+                        "=",
+                        "\"back\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringVariable"
+                      },
+                      "parameters": [
+                        "firstCard",
+                        "=",
+                        "secondCard"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "mixer_done",
+                        "True",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Завершение уровня"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "mixer_done",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "tractor_done",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVolumeMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "music\\win.wav",
+            "",
+            "75",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "StarSparks",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Next",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Restart",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "c_win",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "100"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Restart",
+            "",
+            "no",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level1\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
