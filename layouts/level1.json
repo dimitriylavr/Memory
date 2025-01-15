@@ -9,17 +9,17 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
-    "gridWidth": 32,
-    "gridHeight": 32,
+    "gridWidth": 64,
+    "gridHeight": 64,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.6455105703311483,
-    "windowMask": false
+    "snap": true,
+    "zoomFactor": 0.7130377630690402,
+    "windowMask": true
   },
   "objectsGroups": [],
   "variables": [
@@ -27,6 +27,16 @@
       "name": "index",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "card1",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "card2",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -87,12 +97,60 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Card",
-      "persistentUuid": "5a110f27-e932-422d-a674-46c655ae3159",
+      "name": "c_tractor",
+      "persistentUuid": "9c92a370-b97b-465e-8fbe-2c26911fd63f",
       "width": 0,
-      "x": 143,
-      "y": 132,
+      "x": 256,
+      "y": 105,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "c_tractor",
+      "persistentUuid": "42292b6d-7828-4467-a2e9-e556896b2208",
+      "width": 0,
+      "x": 721,
+      "y": 385,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "c_mixer",
+      "persistentUuid": "c043714d-3c5b-44eb-b4dd-4913f4bca177",
+      "width": 0,
+      "x": 724,
+      "y": 105,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "c_mixer",
+      "persistentUuid": "b7773276-334f-4aba-9440-397a81217b24",
+      "width": 0,
+      "x": 256,
+      "y": 384,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -109,13 +167,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 3,
           "leftEdgeAnchor": 3,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 3,
           "topEdgeAnchor": 3,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -341,17 +399,12 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Card",
+      "name": "CardBack",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "ObjectStack",
-          "type": "ObjectStack::ObjectStack"
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "",
@@ -363,7 +416,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\cb.png",
+                  "image": "assets\\card\\card_back.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -383,16 +436,232 @@
                         "y": 0
                       },
                       {
-                        "x": 188,
+                        "x": 300,
                         "y": 0
                       },
                       {
-                        "x": 188,
-                        "y": 268
+                        "x": 300,
+                        "y": 215
                       },
                       {
                         "x": 0,
-                        "y": 268
+                        "y": 215
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "c_tractor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "back",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\card\\card_back.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 215
+                      },
+                      {
+                        "x": 0,
+                        "y": 215
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\card\\c_tractor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 215
+                      },
+                      {
+                        "x": 0,
+                        "y": 215
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "c_mixer",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "back",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\card\\card_back.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 215
+                      },
+                      {
+                        "x": 0,
+                        "y": 215
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\card\\c_mixer.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 215
+                      },
+                      {
+                        "x": 0,
+                        "y": 215
                       }
                     ]
                   ]
@@ -411,7 +680,13 @@
         "folderName": "Card",
         "children": [
           {
-            "objectName": "Card"
+            "objectName": "CardBack"
+          },
+          {
+            "objectName": "c_tractor"
+          },
+          {
+            "objectName": "c_mixer"
           }
         ]
       },
@@ -478,54 +753,6 @@
                 "yes",
                 "",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Создание карт\n"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "4",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Card",
-                    "4 + Variable(index) * 32",
-                    "32",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "index",
-                    "+",
-                    "1"
-                  ]
-                }
               ]
             }
           ]
@@ -758,6 +985,114 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Работа с картами",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "c_tractor",
+                "",
+                "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipY"
+              },
+              "parameters": [
+                "c_tractor",
+                "Flippable",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "c_tractor",
+                "Animation",
+                "=",
+                "\"front\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "c_mixer",
+                "",
+                "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipY"
+              },
+              "parameters": [
+                "c_mixer",
+                "Flippable",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "c_mixer",
+                "Animation",
+                "=",
+                "\"front\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -822,10 +1157,6 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
-      "name": "ObjectStack",
-      "type": "ObjectStack::ObjectStack"
     },
     {
       "name": "Opacity",

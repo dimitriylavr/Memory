@@ -385,6 +385,54 @@
         "name": "assets\\cb.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/card_back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\card_back.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/card/card_blank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\card\\card_blank.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/card/card_back.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\card\\card_back.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/card/c_tractor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\card\\c_tractor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/card/card_back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\card\\card_back.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/card/c_mixer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\card\\c_mixer.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -449,6 +497,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/objectstack"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/threedflip"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/faceforward"
     }
   ],
   "externalLayouts": [],
