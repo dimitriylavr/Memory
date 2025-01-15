@@ -118,7 +118,7 @@
       "persistentUuid": "4ee308c6-eb9e-47e4-a5a1-a2a695148701",
       "width": 0,
       "x": 315,
-      "y": 143,
+      "y": 140,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -134,7 +134,7 @@
       "persistentUuid": "dacf73b4-8ed8-4dd5-ac37-5c1295f8fa9f",
       "width": 0,
       "x": 534,
-      "y": 144,
+      "y": 140,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -150,7 +150,7 @@
       "persistentUuid": "c256f4fe-4ce6-4bc6-a8e2-af75d81f633b",
       "width": 0,
       "x": 751,
-      "y": 147,
+      "y": 140,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -166,7 +166,7 @@
       "persistentUuid": "480df91e-c9be-42bc-846c-13c7f5fa53c5",
       "width": 0,
       "x": 972,
-      "y": 149,
+      "y": 140,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -198,7 +198,7 @@
       "persistentUuid": "08ed43ec-19f5-4924-b0e6-bd5b01e30ece",
       "width": 0,
       "x": 311,
-      "y": 349,
+      "y": 356,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -214,7 +214,7 @@
       "persistentUuid": "965641ff-e4af-4484-a04b-d202f241deab",
       "width": 0,
       "x": 530,
-      "y": 352,
+      "y": 356,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -230,7 +230,7 @@
       "persistentUuid": "96bf66c0-8fe1-4def-a530-e14c43bc9567",
       "width": 0,
       "x": 746,
-      "y": 353,
+      "y": 356,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -246,7 +246,7 @@
       "persistentUuid": "c4d7b768-767f-4b17-aa56-dcff0dda1830",
       "width": 0,
       "x": 975,
-      "y": 354,
+      "y": 356,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -1233,6 +1233,53 @@
           ]
         }
       ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 90,
+      "emitterForceMax": 85,
+      "emitterForceMin": 45,
+      "flow": 256,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 64,
+      "name": "ParticlesEmitter",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 51,
+      "particleBlue2": 0,
+      "particleColor1": "255;51;51",
+      "particleColor2": "255;255;0",
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 51,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Line",
+      "tank": 64,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1292,6 +1339,9 @@
       },
       {
         "objectName": "BackButton"
+      },
+      {
+        "objectName": "ParticlesEmitter"
       }
     ]
   },
@@ -1309,6 +1359,7 @@
       "comment": "Загрузка игры\n"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1320,7 +1371,24 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "c_tractor"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "c_mixer"
+          ]
+        }
+      ],
       "events": [
         {
           "colorB": 228,
@@ -1521,6 +1589,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Нажатие кнопки Играть",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1586,6 +1655,7 @@
       "comment": "Звук вкл выкл\n"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2541,34 +2611,106 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "lvl1",
-                "",
-                "no",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonPressed"
+                "value": "LayerVisible"
               },
               "parameters": [
                 "",
-                "Left"
+                "\"SelectLevel\""
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level1\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl1",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level1\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "ParticlesEmitter",
+                    "CursorX()",
+                    "CursorY()",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl2",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level2\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
