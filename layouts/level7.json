@@ -1,12 +1,12 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level3",
-  "name": "Level3",
+  "mangledName": "Level7",
+  "name": "Level7",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
-  "title": "Уровень 3",
+  "title": "Уровень 7",
   "v": 209,
   "uiSettings": {
     "grid": false,
@@ -59,6 +59,11 @@
       "value": false
     },
     {
+      "name": "buldozer_done",
+      "type": "boolean",
+      "value": false
+    },
+    {
       "name": "kran_done",
       "type": "boolean",
       "value": false
@@ -69,86 +74,15 @@
       "type": "array",
       "children": [
         {
-          "folded": true,
           "type": "array",
           "children": [
             {
               "type": "number",
-              "value": 20
+              "value": 11
             },
             {
               "type": "number",
-              "value": 150
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "array",
-          "children": [
-            {
-              "type": "number",
-              "value": 334
-            },
-            {
-              "type": "number",
-              "value": 150
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "array",
-          "children": [
-            {
-              "type": "number",
-              "value": 647
-            },
-            {
-              "type": "number",
-              "value": 150
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "array",
-          "children": [
-            {
-              "type": "number",
-              "value": 959
-            },
-            {
-              "type": "number",
-              "value": 150
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "array",
-          "children": [
-            {
-              "type": "number",
-              "value": 20
-            },
-            {
-              "type": "number",
-              "value": 400
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "array",
-          "children": [
-            {
-              "type": "number",
-              "value": 334
-            },
-            {
-              "type": "number",
-              "value": 400
+              "value": 186
             }
           ]
         },
@@ -157,11 +91,11 @@
           "children": [
             {
               "type": "number",
-              "value": 647
+              "value": 11
             },
             {
               "type": "number",
-              "value": 400
+              "value": 406
             }
           ]
         },
@@ -170,11 +104,102 @@
           "children": [
             {
               "type": "number",
-              "value": 959
+              "value": 317
             },
             {
               "type": "number",
-              "value": 400
+              "value": 66
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 317
+            },
+            {
+              "type": "number",
+              "value": 284
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 317
+            },
+            {
+              "type": "number",
+              "value": 501
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 626
+            },
+            {
+              "type": "number",
+              "value": 66
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 626
+            },
+            {
+              "type": "number",
+              "value": 284
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 626
+            },
+            {
+              "type": "number",
+              "value": 501
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 939
+            },
+            {
+              "type": "number",
+              "value": 186
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 939
+            },
+            {
+              "type": "number",
+              "value": 406
             }
           ]
         }
@@ -390,12 +415,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
+      "layer": "timer",
       "name": "MemTxt",
       "persistentUuid": "52489159-0f5e-4f24-988c-663d3cc5cdbb",
       "width": 0,
       "x": 350,
-      "y": 0,
+      "y": -9,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -876,7 +901,7 @@
                   },
                   "parameters": [
                     "",
-                    "c_tractor",
+                    "c_xx",
                     "Variable(coord[0][0])",
                     "Variable(coord[0][1])",
                     "\"card\""
@@ -888,7 +913,7 @@
                   },
                   "parameters": [
                     "",
-                    "c_tractor",
+                    "c_xx",
                     "Variable(coord[1][0])",
                     "Variable(coord[1][1])",
                     "\"card\""
@@ -900,7 +925,7 @@
                   },
                   "parameters": [
                     "",
-                    "c_mixer",
+                    "c_exc",
                     "Variable(coord[2][0])",
                     "Variable(coord[2][1])",
                     "\"card\""
@@ -912,7 +937,7 @@
                   },
                   "parameters": [
                     "",
-                    "c_mixer",
+                    "c_exc",
                     "Variable(coord[3][0])",
                     "Variable(coord[3][1])",
                     "\"card\""
@@ -924,7 +949,7 @@
                   },
                   "parameters": [
                     "",
-                    "c_grader",
+                    "c_sam",
                     "Variable(coord[4][0])",
                     "Variable(coord[4][1])",
                     "\"card\""
@@ -936,7 +961,7 @@
                   },
                   "parameters": [
                     "",
-                    "c_grader",
+                    "c_sam",
                     "Variable(coord[5][0])",
                     "Variable(coord[5][1])",
                     "\"card\""
@@ -968,10 +993,34 @@
                 },
                 {
                   "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "c_buldozer",
+                    "Variable(coord[8][0])",
+                    "Variable(coord[8][1])",
+                    "\"card\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "c_buldozer",
+                    "Variable(coord[9][0])",
+                    "Variable(coord[9][1])",
+                    "\"card\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
-                    "c_tractor",
+                    "c_xx",
                     "Effect",
                     "\"Effect\"",
                     "no"
@@ -982,7 +1031,7 @@
                     "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
-                    "c_mixer",
+                    "c_exc",
                     "Effect",
                     "\"Effect\"",
                     "no"
@@ -993,7 +1042,7 @@
                     "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
-                    "c_grader",
+                    "c_sam",
                     "Effect",
                     "\"Effect\"",
                     "no"
@@ -1005,6 +1054,17 @@
                   },
                   "parameters": [
                     "c_kran",
+                    "Effect",
+                    "\"Effect\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "c_buldozer",
                     "Effect",
                     "\"Effect\"",
                     "no"
@@ -1021,7 +1081,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "c_tractor",
+                    "c_xx",
                     "Animation",
                     "=",
                     "\"front\""
@@ -1032,7 +1092,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "c_mixer",
+                    "c_exc",
                     "Animation",
                     "=",
                     "\"front\""
@@ -1043,7 +1103,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "c_grader",
+                    "c_sam",
                     "Animation",
                     "=",
                     "\"front\""
@@ -1055,6 +1115,17 @@
                   },
                   "parameters": [
                     "c_kran",
+                    "Animation",
+                    "=",
+                    "\"front\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "c_buldozer",
                     "Animation",
                     "=",
                     "\"front\""
@@ -1111,7 +1182,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "c_mixer",
+            "c_exc",
             "Animation",
             "=",
             "\"back\""
@@ -1122,7 +1193,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "c_tractor",
+            "c_xx",
             "Animation",
             "=",
             "\"back\""
@@ -1133,7 +1204,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "c_grader",
+            "c_sam",
             "Animation",
             "=",
             "\"back\""
@@ -1145,6 +1216,17 @@
           },
           "parameters": [
             "c_kran",
+            "Animation",
+            "=",
+            "\"back\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "c_buldozer",
             "Animation",
             "=",
             "\"back\""
@@ -1173,7 +1255,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Работа с картами",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1191,6 +1272,7 @@
           "comment": "Трактор"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1214,7 +1296,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "c_tractor",
+                    "c_xx",
                     "",
                     "no",
                     ""
@@ -1234,7 +1316,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
-                    "c_tractor",
+                    "c_xx",
                     "Animation",
                     "=",
                     "\"back\""
@@ -1275,7 +1357,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipY"
                       },
                       "parameters": [
-                        "c_tractor",
+                        "c_xx",
                         "Flippable",
                         ""
                       ]
@@ -1285,7 +1367,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "c_tractor",
+                        "c_xx",
                         "Animation",
                         "=",
                         "\"front\""
@@ -1339,7 +1421,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipY"
                       },
                       "parameters": [
-                        "c_tractor",
+                        "c_xx",
                         "Flippable",
                         ""
                       ]
@@ -1349,7 +1431,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "c_tractor",
+                        "c_xx",
                         "Animation",
                         "=",
                         "\"front\""
@@ -1456,7 +1538,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_tractor",
+                            "c_xx",
                             "Animation",
                             "=",
                             "\"back\""
@@ -1512,7 +1594,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_grader",
+                            "c_sam",
                             "Animation",
                             "=",
                             "\"back\""
@@ -1541,6 +1623,34 @@
                           },
                           "parameters": [
                             "c_kran",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "buldozer_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_buldozer",
                             "Animation",
                             "=",
                             "\"back\""
@@ -1625,9 +1735,10 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Бетономешалка"
+          "comment": "Экскаватор"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1651,7 +1762,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "c_mixer",
+                    "c_exc",
                     "",
                     "no",
                     ""
@@ -1671,7 +1782,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
-                    "c_mixer",
+                    "c_exc",
                     "Animation",
                     "=",
                     "\"back\""
@@ -1712,7 +1823,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipY"
                       },
                       "parameters": [
-                        "c_mixer",
+                        "c_exc",
                         "Flippable",
                         ""
                       ]
@@ -1722,7 +1833,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "c_mixer",
+                        "c_exc",
                         "Animation",
                         "=",
                         "\"front\""
@@ -1776,7 +1887,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipY"
                       },
                       "parameters": [
-                        "c_mixer",
+                        "c_exc",
                         "Flippable",
                         ""
                       ]
@@ -1786,7 +1897,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "c_mixer",
+                        "c_exc",
                         "Animation",
                         "=",
                         "\"front\""
@@ -1893,7 +2004,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_tractor",
+                            "c_xx",
                             "Animation",
                             "=",
                             "\"back\""
@@ -1921,7 +2032,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_mixer",
+                            "c_exc",
                             "Animation",
                             "=",
                             "\"back\""
@@ -1949,7 +2060,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_grader",
+                            "c_sam",
                             "Animation",
                             "=",
                             "\"back\""
@@ -1978,6 +2089,34 @@
                           },
                           "parameters": [
                             "c_kran",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "buldozer_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_buldozer",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2062,9 +2201,10 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Грейдер\n"
+          "comment": "Самосвал"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2088,7 +2228,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "c_grader",
+                    "c_sam",
                     "",
                     "no",
                     ""
@@ -2108,7 +2248,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
-                    "c_grader",
+                    "c_sam",
                     "Animation",
                     "=",
                     "\"back\""
@@ -2149,7 +2289,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipY"
                       },
                       "parameters": [
-                        "c_grader",
+                        "c_sam",
                         "Flippable",
                         ""
                       ]
@@ -2159,7 +2299,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "c_grader",
+                        "c_sam",
                         "Animation",
                         "=",
                         "\"front\""
@@ -2213,7 +2353,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipY"
                       },
                       "parameters": [
-                        "c_grader",
+                        "c_sam",
                         "Flippable",
                         ""
                       ]
@@ -2223,7 +2363,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "c_grader",
+                        "c_sam",
                         "Animation",
                         "=",
                         "\"front\""
@@ -2330,7 +2470,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_tractor",
+                            "c_xx",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2358,7 +2498,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_mixer",
+                            "c_exc",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2386,7 +2526,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_grader",
+                            "c_sam",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2415,6 +2555,34 @@
                           },
                           "parameters": [
                             "c_kran",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "buldozer_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_buldozer",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2768,7 +2936,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_tractor",
+                            "c_xx",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2796,7 +2964,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_mixer",
+                            "c_exc",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2824,7 +2992,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_grader",
+                            "c_sam",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2853,6 +3021,34 @@
                           },
                           "parameters": [
                             "c_kran",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "buldozer_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_buldozer",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2926,6 +3122,472 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Бульдозер"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "buldozer_done",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "c_buldozer",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "c_buldozer",
+                    "Animation",
+                    "=",
+                    "\"back\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "c_buldozer",
+                        "Flippable",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "c_buldozer",
+                        "Animation",
+                        "=",
+                        "\"front\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "secondCard",
+                        "=",
+                        "\"c_buldozer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "c_buldozer",
+                        "Flippable",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "c_buldozer",
+                        "Animation",
+                        "=",
+                        "\"front\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "firstCard",
+                        "=",
+                        "\"c_buldozer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "turns",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "firstCard",
+                            "!=",
+                            "secondCard"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "tractor_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_xx",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "mixer_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_exc",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "grader_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_sam",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "kran_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_kran",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "buldozer_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_buldozer",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "turns",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "firstCard",
+                            "=",
+                            "secondCard"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "buldozer_done",
+                        "True",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -2940,7 +3602,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2958,7 +3619,7 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "c_tractor",
+              "object": "c_xx",
               "conditions": [],
               "actions": [
                 {
@@ -2966,7 +3627,7 @@
                     "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
-                    "c_tractor",
+                    "c_xx",
                     "Effect",
                     "\"Effect\"",
                     "yes"
@@ -3002,7 +3663,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3020,7 +3680,7 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "c_mixer",
+              "object": "c_exc",
               "conditions": [],
               "actions": [
                 {
@@ -3028,7 +3688,7 @@
                     "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
-                    "c_mixer",
+                    "c_exc",
                     "Effect",
                     "\"Effect\"",
                     "yes"
@@ -3064,7 +3724,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3082,7 +3741,7 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "c_grader",
+              "object": "c_sam",
               "conditions": [],
               "actions": [
                 {
@@ -3090,7 +3749,7 @@
                     "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
-                    "c_grader",
+                    "c_sam",
                     "Effect",
                     "\"Effect\"",
                     "yes"
@@ -3153,6 +3812,68 @@
                   },
                   "parameters": [
                     "c_kran",
+                    "Effect",
+                    "\"Effect\"",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "music\\select.wav",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "buldozer_done",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "c_buldozer",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "c_buldozer",
                     "Effect",
                     "\"Effect\"",
                     "yes"
@@ -3256,6 +3977,16 @@
                   },
                   "parameters": [
                     "kran_done",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "buldozer_done",
                     "True",
                     ""
                   ]
@@ -3390,7 +4121,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Звук и возврат в меню",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3654,7 +4384,7 @@
               },
               "parameters": [
                 "",
-                "\"Level3\"",
+                "\"Level7\"",
                 ""
               ]
             }
@@ -3691,7 +4421,7 @@
               },
               "parameters": [
                 "",
-                "\"Level4\"",
+                "\"Level8\"",
                 ""
               ]
             }
@@ -3758,7 +4488,7 @@
       "isLocked": false,
       "name": "ower",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
