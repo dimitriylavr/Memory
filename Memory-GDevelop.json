@@ -627,6 +627,14 @@
         "name": "assets\\card\\c_xx.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/card/c_buldozer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\card\\c_buldozer.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1657,6 +1665,133 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "c_buldozer",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Godray",
+          "name": "Effect",
+          "doubleParameters": {
+            "angle": 30,
+            "animationSpeed": 1,
+            "gain": 0.6,
+            "lacunarity": 2.75,
+            "light": 30,
+            "padding": 0,
+            "x": 100,
+            "y": 100
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "parallel": true
+          }
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "back",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\card\\card_back.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 215
+                      },
+                      {
+                        "x": 0,
+                        "y": 215
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\card\\c_buldozer.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 215
+                      },
+                      {
+                        "x": 0,
+                        "y": 215
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1665,6 +1800,9 @@
       {
         "folderName": "Card",
         "children": [
+          {
+            "objectName": "c_buldozer"
+          },
           {
             "objectName": "c_xx"
           },
@@ -1735,6 +1873,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level4"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level5"
     }
   ],
   "externalEvents": [],
