@@ -20,8 +20,8 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Memory-GDevelop",
-    "description": "",
+    "name": "MemoryKidGame",
+    "description": "В этой яркой и красочной игре ваша задача — открывать пары одинаковых карт с изображениями строительной техники. Игра разработана специально для детей, чтобы развивать их память, внимательность и логическое мышление.",
     "author": "NotNull",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -2373,6 +2373,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pausefocuslost"
     }
   ],
   "externalLayouts": [],

@@ -1591,7 +1591,7 @@
                     "",
                     "music\\level.mp3",
                     "1",
-                    "yes",
+                    "100",
                     "",
                     ""
                   ]
@@ -1702,7 +1702,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Нажатие кнопки Играть",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1768,7 +1767,6 @@
       "comment": "Звук вкл выкл\n"
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1896,7 +1894,7 @@
               },
               "parameters": [
                 "",
-                "music\\mainMenu.mp3",
+                "music\\level.mp3",
                 "1",
                 "",
                 "",
@@ -2715,6 +2713,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Выбор уровня",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

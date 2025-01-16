@@ -662,6 +662,7 @@
   },
   "events": [
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -874,6 +875,15 @@
                     "Effect",
                     "\"Effect\"",
                     "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Game_Ready_for_Yandex::Function2"
+                  },
+                  "parameters": [
+                    "",
+                    ""
                   ]
                 }
               ]
