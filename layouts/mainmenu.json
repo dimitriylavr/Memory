@@ -27,23 +27,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 40,
-      "keepRatio": true,
-      "layer": "",
-      "name": "OnOff",
-      "persistentUuid": "c9425ed8-f668-40f4-806d-ad8c8b24d526",
-      "width": 47.33333333333334,
-      "x": 1178,
-      "y": 30,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 50,
       "height": 71.875,
       "keepRatio": true,
@@ -52,7 +35,7 @@
       "persistentUuid": "b4deb5a4-7d88-4a33-b72e-da46bd44eb1d",
       "width": 200,
       "x": 540,
-      "y": 526,
+      "y": 557,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -437,125 +420,6 @@
           "width": 192
         }
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "OnOff",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 1,
-          "leftEdgeAnchor": 0,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 2,
-          "topEdgeAnchor": 0,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "On",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\on.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 426,
-                        "y": 0
-                      },
-                      {
-                        "x": 426,
-                        "y": 360
-                      },
-                      {
-                        "x": 0,
-                        "y": 360
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Off",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\off.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 426,
-                        "y": 0
-                      },
-                      {
-                        "x": 426,
-                        "y": 360
-                      },
-                      {
-                        "x": 0,
-                        "y": 360
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -1463,9 +1327,6 @@
         "objectName": "PlayButton"
       },
       {
-        "objectName": "OnOff"
-      },
-      {
         "objectName": "BackButton"
       },
       {
@@ -1510,6 +1371,16 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "InstantGamesBridge::BackgroundColor"
+          },
+          "parameters": [
+            "",
+            "\"111;194;60\"",
+            ""
+          ]
         }
       ],
       "events": [
@@ -1526,112 +1397,15 @@
           "actions": [
             {
               "type": {
-                "value": "InstantGamesBridge::YandexGameReady"
+                "value": "InstantGamesBridge::IGB_initialize"
               },
               "parameters": [
                 "",
+                "\"yandex\"",
                 ""
               ]
             }
           ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Звук",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "SoundOn",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "OnOff",
-                    "Animation",
-                    "=",
-                    "\"On\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "SoundOn",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "OnOff",
-                    "Animation",
-                    "=",
-                    "\"Off\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "SoundOn",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlayMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "music\\level.mp3",
-                    "1",
-                    "100",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
         },
         {
           "colorB": 228,
@@ -1785,168 +1559,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Звук вкл выкл\n"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "OnOff",
-            "",
-            "no",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "SoundOn",
-            "+",
-            "1"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "SoundOn",
-                ">=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "SoundOn",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "SoundOn",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PauseMusicCanal"
-              },
-              "parameters": [
-                "",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "OnOff",
-                "Animation",
-                "=",
-                "\"Off\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "SoundOn",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "music\\level.mp3",
-                "1",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "OnOff",
-                "Animation",
-                "=",
-                "\"On\""
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2745,7 +2357,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Выбор уровня",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2763,7 +2374,16 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2797,6 +2417,15 @@
                   "parameters": [
                     "",
                     "\"Level1\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "InstantGamesBridge::YandexGameReady"
+                  },
+                  "parameters": [
+                    "",
                     ""
                   ]
                 }
@@ -2836,6 +2465,15 @@
                     "\"Level2\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "InstantGamesBridge::YandexGameReady"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -2871,6 +2509,15 @@
                   "parameters": [
                     "",
                     "\"Level3\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "InstantGamesBridge::YandexGameReady"
+                  },
+                  "parameters": [
+                    "",
                     ""
                   ]
                 }
@@ -2910,6 +2557,15 @@
                     "\"Level4\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "InstantGamesBridge::YandexGameReady"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -2945,6 +2601,15 @@
                   "parameters": [
                     "",
                     "\"Level5\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "InstantGamesBridge::YandexGameReady"
+                  },
+                  "parameters": [
+                    "",
                     ""
                   ]
                 }
@@ -2984,6 +2649,15 @@
                     "\"Level6\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "InstantGamesBridge::YandexGameReady"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -3019,6 +2693,15 @@
                   "parameters": [
                     "",
                     "\"Level7\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "InstantGamesBridge::YandexGameReady"
+                  },
+                  "parameters": [
+                    "",
                     ""
                   ]
                 }
@@ -3058,6 +2741,15 @@
                     "\"Level8\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "InstantGamesBridge::YandexGameReady"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -3095,6 +2787,15 @@
                     "\"Level9\"",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "InstantGamesBridge::YandexGameReady"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -3130,6 +2831,15 @@
                   "parameters": [
                     "",
                     "\"Level10\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "InstantGamesBridge::YandexGameReady"
+                  },
+                  "parameters": [
+                    "",
                     ""
                   ]
                 }

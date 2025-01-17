@@ -59,7 +59,7 @@
       "ios-icon-87": ""
     },
     "loadingScreen": {
-      "backgroundColor": 0,
+      "backgroundColor": 7324220,
       "backgroundFadeInDuration": 0.2,
       "backgroundImageResourceName": "",
       "gdevelopLogoStyle": "light",
@@ -76,7 +76,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
@@ -2271,11 +2271,6 @@
   },
   "objectsGroups": [],
   "variables": [
-    {
-      "name": "SoundOn",
-      "type": "number",
-      "value": 0
-    },
     {
       "name": "BackLevel",
       "type": "boolean",

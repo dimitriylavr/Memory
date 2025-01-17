@@ -256,23 +256,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 40,
-      "keepRatio": true,
-      "layer": "",
-      "name": "OnOff",
-      "persistentUuid": "90961770-fad9-4ff0-857c-1786b221ec3f",
-      "width": 40,
-      "x": 1178,
-      "y": 30,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 268,
       "customSize": true,
       "depth": 1,
@@ -558,114 +541,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "OnOff",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "On",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\on.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 28
-                      },
-                      {
-                        "x": 359,
-                        "y": 28
-                      },
-                      {
-                        "x": 359,
-                        "y": 332
-                      },
-                      {
-                        "x": 0,
-                        "y": 332
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Off",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\off.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 28
-                      },
-                      {
-                        "x": 359,
-                        "y": 28
-                      },
-                      {
-                        "x": 359,
-                        "y": 332
-                      },
-                      {
-                        "x": 0,
-                        "y": 332
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "additive": true,
       "assetStoreId": "edb6923baf2b0b51dac8f4ce53b1ec10a09243ca57fb694722d79eb5ed6a62b7",
       "destroyWhenNoParticles": false,
@@ -807,9 +682,6 @@
         "objectName": "BackMenu"
       },
       {
-        "objectName": "OnOff"
-      },
-      {
         "objectName": "StarSparks"
       },
       {
@@ -819,6 +691,7 @@
   },
   "events": [
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -911,36 +784,6 @@
         }
       ],
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "SoundOn",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "music\\level.mp3",
-                "1",
-                "yes",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -1446,34 +1289,6 @@
                             "value": "BooleanVariable"
                           },
                           "parameters": [
-                            "tractor2_done",
-                            "=",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "c_tractor",
-                            "Animation",
-                            "=",
-                            "\"back\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BooleanVariable"
-                          },
-                          "parameters": [
                             "tractor_done",
                             "=",
                             ""
@@ -1502,6 +1317,34 @@
                             "value": "BooleanVariable"
                           },
                           "parameters": [
+                            "tractor2_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_tractor",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
                             "mixer_done",
                             "=",
                             ""
@@ -1514,7 +1357,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_mixer",
+                            "c_exc",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2007,7 +1850,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_mixer",
+                            "c_exc",
                             "Animation",
                             "=",
                             "\"back\""
@@ -3658,6 +3501,7 @@
           "comment": "Автокран\n"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4146,6 +3990,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Подсветка карт при попадании",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4525,6 +4370,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Завершение уровня",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4740,173 +4586,11 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Звук и возврат в меню",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Звук вкл выкл\n"
-        },
-        {
-          "folded": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "OnOff",
-                "",
-                "no",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "SoundOn",
-                "+",
-                "1"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "SoundOn",
-                    ">=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "SoundOn",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "SoundOn",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PauseMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "OnOff",
-                    "Animation",
-                    "=",
-                    "\"Off\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "SoundOn",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlayMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "music\\level.mp3",
-                    "1",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "OnOff",
-                    "Animation",
-                    "=",
-                    "\"On\""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -4958,6 +4642,7 @@
       "parameters": []
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
