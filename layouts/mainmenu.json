@@ -1374,39 +1374,20 @@
         },
         {
           "type": {
-            "value": "InstantGamesBridge::BackgroundColor"
+            "value": "InstantGamesBridge::BackgroundImage"
           },
           "parameters": [
             "",
-            "\"111;194;60\"",
+            "assets\\lvl_back\\lvl_back.png",
+            "\"cover\"",
+            "100",
+            "\"repeat\"",
+            "\"center\"",
             ""
           ]
         }
       ],
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "InstantGamesBridge::IGB_initialize"
-              },
-              "parameters": [
-                "",
-                "\"yandex\"",
-                ""
-              ]
-            }
-          ]
-        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -1488,6 +1469,44 @@
             }
           ],
           "parameters": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "InstantGamesBridge::IsInizialize"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "InstantGamesBridge::YandexGameReady"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1644,6 +1663,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2357,6 +2377,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Выбор уровня",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2419,15 +2440,6 @@
                     "\"Level1\"",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "InstantGamesBridge::YandexGameReady"
-                  },
-                  "parameters": [
-                    "",
-                    ""
-                  ]
                 }
               ]
             },
@@ -2463,15 +2475,6 @@
                   "parameters": [
                     "",
                     "\"Level2\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "InstantGamesBridge::YandexGameReady"
-                  },
-                  "parameters": [
-                    "",
                     ""
                   ]
                 }
@@ -2511,15 +2514,6 @@
                     "\"Level3\"",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "InstantGamesBridge::YandexGameReady"
-                  },
-                  "parameters": [
-                    "",
-                    ""
-                  ]
                 }
               ]
             },
@@ -2555,15 +2549,6 @@
                   "parameters": [
                     "",
                     "\"Level4\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "InstantGamesBridge::YandexGameReady"
-                  },
-                  "parameters": [
-                    "",
                     ""
                   ]
                 }
@@ -2603,15 +2588,6 @@
                     "\"Level5\"",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "InstantGamesBridge::YandexGameReady"
-                  },
-                  "parameters": [
-                    "",
-                    ""
-                  ]
                 }
               ]
             },
@@ -2647,15 +2623,6 @@
                   "parameters": [
                     "",
                     "\"Level6\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "InstantGamesBridge::YandexGameReady"
-                  },
-                  "parameters": [
-                    "",
                     ""
                   ]
                 }
@@ -2695,15 +2662,6 @@
                     "\"Level7\"",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "InstantGamesBridge::YandexGameReady"
-                  },
-                  "parameters": [
-                    "",
-                    ""
-                  ]
                 }
               ]
             },
@@ -2739,15 +2697,6 @@
                   "parameters": [
                     "",
                     "\"Level8\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "InstantGamesBridge::YandexGameReady"
-                  },
-                  "parameters": [
-                    "",
                     ""
                   ]
                 }
@@ -2787,15 +2736,6 @@
                     "\"Level9\"",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "InstantGamesBridge::YandexGameReady"
-                  },
-                  "parameters": [
-                    "",
-                    ""
-                  ]
                 }
               ]
             },
@@ -2831,15 +2771,6 @@
                   "parameters": [
                     "",
                     "\"Level10\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "InstantGamesBridge::YandexGameReady"
-                  },
-                  "parameters": [
-                    "",
                     ""
                   ]
                 }

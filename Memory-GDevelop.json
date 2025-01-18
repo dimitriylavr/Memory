@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "16c7d324-ded1-4ccd-a988-f7012263b30a",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "",
+    "sizeOnStartupMode": "scaleOuter",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
