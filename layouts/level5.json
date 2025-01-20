@@ -459,7 +459,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\lvl_back\\lvl_back.png",
+                  "image": "assets\\lvl_back\\lvl_back.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4172,7 +4172,7 @@
       "isLocked": false,
       "name": "ower",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

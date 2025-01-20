@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6897782140104501,
+    "zoomFactor": 0.41943397827590645,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -61,15 +61,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 960,
-      "keepRatio": true,
+      "depth": 1.009077155824508,
+      "height": 1334,
       "layer": "",
       "name": "NewTiledSprite",
       "persistentUuid": "77fcecb4-f765-45b9-b018-7e28d4d3a83c",
-      "width": 1527,
-      "x": -101,
-      "y": -138,
+      "width": 1800,
+      "x": -96,
+      "y": -334,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -255,78 +254,6 @@
   ],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Background",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "isFolded": true,
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "fcf1639d-a906-4588-9cca-82fdcbfab800_raw.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1536,
-                        "y": 0
-                      },
-                      {
-                        "x": 1536,
-                        "y": 1152
-                      },
-                      {
-                        "x": 0,
-                        "y": 1152
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
       "name": "PlayButton",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -497,7 +424,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite",
-      "texture": "fcf1639d-a906-4588-9cca-82fdcbfab800_raw.png",
+      "texture": "main.webp",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -1315,9 +1242,6 @@
       {
         "folderName": "bg",
         "children": [
-          {
-            "objectName": "Background"
-          },
           {
             "objectName": "NewTiledSprite"
           }

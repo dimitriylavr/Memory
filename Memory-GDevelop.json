@@ -674,6 +674,22 @@
         "name": "assets\\main.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "main.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "main.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl_back/lvl_back.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl_back\\lvl_back.webp",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
