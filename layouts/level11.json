@@ -1,12 +1,12 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level7",
-  "name": "Level7",
+  "mangledName": "Level11",
+  "name": "Level11",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
-  "title": "Уровень 7",
+  "title": "Уровень 11",
   "v": 209,
   "uiSettings": {
     "grid": false,
@@ -49,6 +49,11 @@
       "value": false
     },
     {
+      "name": "tractor2_done",
+      "type": "boolean",
+      "value": false
+    },
+    {
       "name": "mixer_done",
       "type": "boolean",
       "value": false
@@ -78,11 +83,11 @@
           "children": [
             {
               "type": "number",
-              "value": 11
+              "value": 14
             },
             {
               "type": "number",
-              "value": 186
+              "value": 19
             }
           ]
         },
@@ -91,11 +96,11 @@
           "children": [
             {
               "type": "number",
-              "value": 11
+              "value": 322
             },
             {
               "type": "number",
-              "value": 406
+              "value": 19
             }
           ]
         },
@@ -104,11 +109,11 @@
           "children": [
             {
               "type": "number",
-              "value": 317
+              "value": 629
             },
             {
               "type": "number",
-              "value": 66
+              "value": 19
             }
           ]
         },
@@ -117,11 +122,11 @@
           "children": [
             {
               "type": "number",
-              "value": 317
+              "value": 937
             },
             {
               "type": "number",
-              "value": 284
+              "value": 19
             }
           ]
         },
@@ -130,11 +135,11 @@
           "children": [
             {
               "type": "number",
-              "value": 317
+              "value": 14
             },
             {
               "type": "number",
-              "value": 501
+              "value": 243
             }
           ]
         },
@@ -143,11 +148,11 @@
           "children": [
             {
               "type": "number",
-              "value": 626
+              "value": 322
             },
             {
               "type": "number",
-              "value": 66
+              "value": 243
             }
           ]
         },
@@ -156,11 +161,11 @@
           "children": [
             {
               "type": "number",
-              "value": 626
+              "value": 629
             },
             {
               "type": "number",
-              "value": 284
+              "value": 243
             }
           ]
         },
@@ -169,11 +174,11 @@
           "children": [
             {
               "type": "number",
-              "value": 626
+              "value": 937
             },
             {
               "type": "number",
-              "value": 501
+              "value": 243
             }
           ]
         },
@@ -182,11 +187,11 @@
           "children": [
             {
               "type": "number",
-              "value": 939
+              "value": 14
             },
             {
               "type": "number",
-              "value": 186
+              "value": 465
             }
           ]
         },
@@ -195,11 +200,37 @@
           "children": [
             {
               "type": "number",
-              "value": 939
+              "value": 322
             },
             {
               "type": "number",
-              "value": 406
+              "value": 465
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 629
+            },
+            {
+              "type": "number",
+              "value": 465
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 937
+            },
+            {
+              "type": "number",
+              "value": 465
             }
           ]
         }
@@ -220,23 +251,6 @@
       "x": -23,
       "y": -100,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 86.39999999999995,
-      "keepRatio": true,
-      "layer": "",
-      "name": "BackMenu",
-      "persistentUuid": "d441eb77-bf6e-4307-9178-8213e20d4396",
-      "width": 100,
-      "x": 22,
-      "y": 23,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -363,23 +377,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 48,
-      "height": 69,
-      "keepRatio": true,
-      "layer": "ower",
-      "name": "Next",
-      "persistentUuid": "e8978474-acdf-495b-b5eb-bfc017c5be59",
-      "width": 344,
-      "x": 689,
-      "y": 617,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 62.30943396226415,
       "height": 69,
       "layer": "ower",
@@ -395,13 +392,29 @@
     },
     {
       "angle": 0,
+      "customSize": true,
+      "depth": 48.707964601769916,
+      "height": 69,
+      "layer": "ower",
+      "name": "Next",
+      "persistentUuid": "28049350-77f7-419b-b069-49dcb4df97c7",
+      "width": 344,
+      "x": 689,
+      "y": 617,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "timer",
       "name": "CountdownText",
       "opacity": 166,
-      "persistentUuid": "dd3032a1-f163-4624-92d2-bb72d7357d74",
+      "persistentUuid": "f64d3fdf-b055-4e9b-9919-ee4b91837b7d",
       "width": 0,
       "x": 566,
       "y": 228,
@@ -823,7 +836,7 @@
                   },
                   "parameters": [
                     "",
-                    "c_buldozer",
+                    "c_crane",
                     "Variable(coord[8][0])",
                     "Variable(coord[8][1])",
                     "\"card\""
@@ -835,9 +848,33 @@
                   },
                   "parameters": [
                     "",
-                    "c_buldozer",
+                    "c_crane",
                     "Variable(coord[9][0])",
                     "Variable(coord[9][1])",
+                    "\"card\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "c_tractor",
+                    "Variable(coord[10][0])",
+                    "Variable(coord[10][1])",
+                    "\"card\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "c_tractor",
+                    "Variable(coord[11][0])",
+                    "Variable(coord[11][1])",
                     "\"card\""
                   ]
                 },
@@ -890,71 +927,21 @@
                     "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
-                    "c_buldozer",
+                    "c_crane",
                     "Effect",
                     "\"Effect\"",
                     "no"
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "c_xx",
-                    "Animation",
-                    "=",
-                    "\"front\""
-                  ]
                 },
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
-                    "c_exc",
-                    "Animation",
-                    "=",
-                    "\"front\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "c_sam",
-                    "Animation",
-                    "=",
-                    "\"front\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "c_kran",
-                    "Animation",
-                    "=",
-                    "\"front\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "c_buldozer",
-                    "Animation",
-                    "=",
-                    "\"front\""
+                    "c_tractor",
+                    "Effect",
+                    "\"Effect\"",
+                    "no"
                   ]
                 }
               ]
@@ -976,7 +963,7 @@
             "CountdownText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountDown\")-3)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountDown\")-2)))"
           ]
         }
       ]
@@ -992,7 +979,7 @@
             "",
             "\"CountDown\"",
             ">=",
-            "3"
+            "2"
           ]
         },
         {
@@ -1008,7 +995,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "c_exc",
+            "c_xx",
             "Animation",
             "=",
             "\"back\""
@@ -1019,7 +1006,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "c_xx",
+            "c_exc",
             "Animation",
             "=",
             "\"back\""
@@ -1052,7 +1039,18 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "c_buldozer",
+            "c_crane",
+            "Animation",
+            "=",
+            "\"back\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "c_tractor",
             "Animation",
             "=",
             "\"back\""
@@ -1073,10 +1071,504 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Работа с картами",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Трактор2\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "tractor2_done",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "c_tractor",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "c_tractor",
+                    "Animation",
+                    "=",
+                    "\"back\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "c_tractor",
+                        "Flippable",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "c_tractor",
+                        "Animation",
+                        "=",
+                        "\"front\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "secondCard",
+                        "=",
+                        "\"c_tractor2\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "c_tractor",
+                        "Flippable",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "c_tractor",
+                        "Animation",
+                        "=",
+                        "\"front\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "firstCard",
+                        "=",
+                        "\"c_tractor2\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "turns",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "firstCard",
+                            "!=",
+                            "secondCard"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "tractor_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_xx",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "tractor2_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_tractor",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "mixer_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_exc",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "grader_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_sam",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "kran_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_kran",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "buldozer_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_crane",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "turns",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "firstCard",
+                            "=",
+                            "secondCard"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "tractor2_done",
+                        "True",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "turns",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -1371,6 +1863,34 @@
                             "value": "BooleanVariable"
                           },
                           "parameters": [
+                            "tractor2_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_tractor",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
                             "mixer_done",
                             "=",
                             ""
@@ -1467,7 +1987,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_buldozer",
+                            "c_crane",
                             "Animation",
                             "=",
                             "\"back\""
@@ -1836,6 +2356,34 @@
                             "value": "BooleanVariable"
                           },
                           "parameters": [
+                            "tractor2_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_tractor",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
                             "mixer_done",
                             "=",
                             ""
@@ -1932,7 +2480,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_buldozer",
+                            "c_crane",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2301,6 +2849,34 @@
                             "value": "BooleanVariable"
                           },
                           "parameters": [
+                            "tractor2_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_tractor",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
                             "mixer_done",
                             "=",
                             ""
@@ -2397,7 +2973,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_buldozer",
+                            "c_crane",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2766,6 +3342,34 @@
                             "value": "BooleanVariable"
                           },
                           "parameters": [
+                            "tractor2_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_tractor",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
                             "mixer_done",
                             "=",
                             ""
@@ -2862,7 +3466,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_buldozer",
+                            "c_crane",
                             "Animation",
                             "=",
                             "\"back\""
@@ -2947,9 +3551,10 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Бульдозер"
+          "comment": "Автокран\n"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2973,7 +3578,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "c_buldozer",
+                    "c_crane",
                     "",
                     "no",
                     ""
@@ -2993,7 +3598,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
-                    "c_buldozer",
+                    "c_crane",
                     "Animation",
                     "=",
                     "\"back\""
@@ -3034,7 +3639,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipY"
                       },
                       "parameters": [
-                        "c_buldozer",
+                        "c_crane",
                         "Flippable",
                         ""
                       ]
@@ -3044,7 +3649,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "c_buldozer",
+                        "c_crane",
                         "Animation",
                         "=",
                         "\"front\""
@@ -3098,7 +3703,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipY"
                       },
                       "parameters": [
-                        "c_buldozer",
+                        "c_crane",
                         "Flippable",
                         ""
                       ]
@@ -3108,7 +3713,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "c_buldozer",
+                        "c_crane",
                         "Animation",
                         "=",
                         "\"front\""
@@ -3231,6 +3836,34 @@
                             "value": "BooleanVariable"
                           },
                           "parameters": [
+                            "tractor2_done",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "c_tractor",
+                            "Animation",
+                            "=",
+                            "\"back\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
                             "mixer_done",
                             "=",
                             ""
@@ -3327,7 +3960,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
-                            "c_buldozer",
+                            "c_crane",
                             "Animation",
                             "=",
                             "\"back\""
@@ -3442,6 +4075,67 @@
                   },
                   "parameters": [
                     "c_xx",
+                    "Effect",
+                    "\"Effect\"",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "music\\select.wav",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "tractor2_done",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "c_tractor",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "c_tractor",
                     "Effect",
                     "\"Effect\"",
                     "yes"
@@ -3661,7 +4355,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3679,7 +4372,7 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "c_buldozer",
+              "object": "c_crane",
               "conditions": [],
               "actions": [
                 {
@@ -3687,7 +4380,7 @@
                     "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
-                    "c_buldozer",
+                    "c_crane",
                     "Effect",
                     "\"Effect\"",
                     "yes"
@@ -3771,6 +4464,16 @@
                   },
                   "parameters": [
                     "tractor_done",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "tractor2_done",
                     "True",
                     ""
                   ]
@@ -3935,6 +4638,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Звук и возврат в меню",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4035,7 +4739,7 @@
               },
               "parameters": [
                 "",
-                "\"Level7\"",
+                "\"Level11\"",
                 ""
               ]
             }
@@ -4072,7 +4776,7 @@
               },
               "parameters": [
                 "",
-                "\"Level8\"",
+                "\"Level12\"",
                 ""
               ]
             }

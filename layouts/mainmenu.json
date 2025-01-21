@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41943397827590645,
+    "zoomFactor": 0.5843784410740935,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,14 +28,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 50,
-      "height": 71.875,
+      "height": 98,
       "keepRatio": true,
       "layer": "PlayButton",
       "name": "PlayButton",
       "persistentUuid": "b4deb5a4-7d88-4a33-b72e-da46bd44eb1d",
-      "width": 200,
-      "x": 540,
-      "y": 557,
+      "width": 248,
+      "x": 528,
+      "y": 602,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -83,8 +83,8 @@
       "name": "lvl1",
       "persistentUuid": "2b797ff8-682a-4c43-8253-14ad92ef780e",
       "width": 188,
-      "x": 97,
-      "y": 140,
+      "x": 164,
+      "y": 27,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -99,8 +99,8 @@
       "name": "lvl2",
       "persistentUuid": "4ee308c6-eb9e-47e4-a5a1-a2a695148701",
       "width": 0,
-      "x": 315,
-      "y": 140,
+      "x": 382,
+      "y": 27,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -115,8 +115,8 @@
       "name": "lvl3",
       "persistentUuid": "dacf73b4-8ed8-4dd5-ac37-5c1295f8fa9f",
       "width": 0,
-      "x": 534,
-      "y": 140,
+      "x": 601,
+      "y": 27,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -131,8 +131,8 @@
       "name": "lvl4",
       "persistentUuid": "c256f4fe-4ce6-4bc6-a8e2-af75d81f633b",
       "width": 0,
-      "x": 751,
-      "y": 140,
+      "x": 818,
+      "y": 27,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -147,8 +147,8 @@
       "name": "lvl5",
       "persistentUuid": "480df91e-c9be-42bc-846c-13c7f5fa53c5",
       "width": 0,
-      "x": 972,
-      "y": 140,
+      "x": 1039,
+      "y": 27,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -163,8 +163,8 @@
       "name": "lvl6",
       "persistentUuid": "c330f1ec-cc38-45ac-a7cb-5818faf056c5",
       "width": 0,
-      "x": 104,
-      "y": 356,
+      "x": 164,
+      "y": 222,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -179,8 +179,8 @@
       "name": "lvl7",
       "persistentUuid": "08ed43ec-19f5-4924-b0e6-bd5b01e30ece",
       "width": 0,
-      "x": 311,
-      "y": 356,
+      "x": 382,
+      "y": 222,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -195,8 +195,8 @@
       "name": "lvl8",
       "persistentUuid": "965641ff-e4af-4484-a04b-d202f241deab",
       "width": 0,
-      "x": 530,
-      "y": 356,
+      "x": 601,
+      "y": 222,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -211,8 +211,8 @@
       "name": "lvl9",
       "persistentUuid": "96bf66c0-8fe1-4def-a530-e14c43bc9567",
       "width": 0,
-      "x": 746,
-      "y": 356,
+      "x": 818,
+      "y": 222,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -227,8 +227,8 @@
       "name": "lvl10",
       "persistentUuid": "c4d7b768-767f-4b17-aa56-dcff0dda1830",
       "width": 0,
-      "x": 975,
-      "y": 356,
+      "x": 1039,
+      "y": 222,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -247,6 +247,102 @@
       "x": 2,
       "y": 144,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "SelectLevel",
+      "name": "lvl11",
+      "persistentUuid": "372bdac4-fb2e-4cf9-b9a3-2afaacd8e8f7",
+      "width": 0,
+      "x": 164,
+      "y": 415,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "SelectLevel",
+      "name": "lvl12",
+      "persistentUuid": "a5be00f6-6c34-43fb-a4fb-8110096fa8f0",
+      "width": 0,
+      "x": 381,
+      "y": 415,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "SelectLevel",
+      "name": "lvl13",
+      "persistentUuid": "8c0d7573-a26d-4d29-a0c1-051670c9616a",
+      "width": 0,
+      "x": 601,
+      "y": 415,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "SelectLevel",
+      "name": "lvl14",
+      "persistentUuid": "61b51f8e-186f-440a-957b-8a2915ce5d39",
+      "width": 0,
+      "x": 818,
+      "y": 415,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "SelectLevel",
+      "name": "lvl15",
+      "persistentUuid": "71d57b78-295c-47e3-896f-933ce39255e4",
+      "width": 0,
+      "x": 1039,
+      "y": 415,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "SelectLevel",
+      "name": "lvl12",
+      "persistentUuid": "ac093a6a-6c55-444e-95ae-d9e22449e4a9",
+      "width": 0,
+      "x": 382,
+      "y": 415,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1199,6 +1295,306 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lvl11",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\lvl11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 187,
+                        "y": 0
+                      },
+                      {
+                        "x": 187,
+                        "y": 177
+                      },
+                      {
+                        "x": 3,
+                        "y": 177
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lvl12",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\lvl12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 187,
+                        "y": 0
+                      },
+                      {
+                        "x": 187,
+                        "y": 177
+                      },
+                      {
+                        "x": 3,
+                        "y": 177
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lvl13",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\lvl13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 187,
+                        "y": 0
+                      },
+                      {
+                        "x": 187,
+                        "y": 177
+                      },
+                      {
+                        "x": 3,
+                        "y": 177
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lvl14",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\lvl14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 187,
+                        "y": 0
+                      },
+                      {
+                        "x": 187,
+                        "y": 177
+                      },
+                      {
+                        "x": 3,
+                        "y": 177
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lvl15",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\lvl15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 187,
+                        "y": 0
+                      },
+                      {
+                        "x": 187,
+                        "y": 177
+                      },
+                      {
+                        "x": 3,
+                        "y": 177
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1236,6 +1632,21 @@
           },
           {
             "objectName": "lvl10"
+          },
+          {
+            "objectName": "lvl11"
+          },
+          {
+            "objectName": "lvl12"
+          },
+          {
+            "objectName": "lvl13"
+          },
+          {
+            "objectName": "lvl14"
+          },
+          {
+            "objectName": "lvl15"
           }
         ]
       },
@@ -1302,7 +1713,7 @@
           },
           "parameters": [
             "",
-            "assets\\lvl_back\\lvl_back.png",
+            "assets\\lvl_back\\lvl_back.webp",
             "\"cover\"",
             "100",
             "\"repeat\"",
@@ -1312,6 +1723,44 @@
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "InstantGamesBridge::IsInizialize"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "InstantGamesBridge::YandexGameReady"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -1393,44 +1842,6 @@
             }
           ],
           "parameters": []
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "InstantGamesBridge::IsInizialize"
-          },
-          "parameters": [
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "InstantGamesBridge::YandexGameReady"
-              },
-              "parameters": [
-                "",
-                ""
-              ]
-            }
-          ]
         }
       ]
     },
@@ -1577,7 +1988,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Группы кнопок выбора уровня",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2292,6 +2702,361 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "11",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl11",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "lvl11",
+                    "Resizable",
+                    "198",
+                    "188"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl11",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "lvl11",
+                    "Resizable",
+                    "188",
+                    "178"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "12",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl12",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "lvl12",
+                    "Resizable",
+                    "198",
+                    "188"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl12",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "lvl12",
+                    "Resizable",
+                    "188",
+                    "178"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "13",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl13",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "lvl13",
+                    "Resizable",
+                    "198",
+                    "188"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl13",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "lvl13",
+                    "Resizable",
+                    "188",
+                    "178"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "14",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl14",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "lvl14",
+                    "Resizable",
+                    "198",
+                    "188"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl14",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "lvl14",
+                    "Resizable",
+                    "188",
+                    "178"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "15",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl15",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "lvl15",
+                    "Resizable",
+                    "198",
+                    "188"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl15",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "lvl15",
+                    "Resizable",
+                    "188",
+                    "178"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "parameters": []
@@ -2301,12 +3066,12 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Выбор уровня",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2699,6 +3464,191 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl11",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level11\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl12",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level12\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl13",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level13\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl14",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level14\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lvl15",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"LevelEnd\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -2760,7 +3710,7 @@
       "isLocked": false,
       "name": "SelectLevel",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

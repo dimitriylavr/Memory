@@ -217,7 +217,7 @@
       "name": "NewSprite",
       "persistentUuid": "1449a85f-aa99-4499-9c92-eb29fc6f471b",
       "width": 1325,
-      "x": -43,
+      "x": -23,
       "y": -100,
       "zOrder": 1,
       "numberProperties": [],
@@ -327,7 +327,7 @@
       "initialVariables": []
     },
     {
-      "angle": 268,
+      "angle": 269,
       "customSize": true,
       "depth": 1,
       "height": 129,
@@ -389,6 +389,23 @@
       "x": 244,
       "y": 617,
       "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "timer",
+      "name": "CountdownText",
+      "opacity": 166,
+      "persistentUuid": "896706b3-8552-4b09-86b6-d1f1a2f5582a",
+      "width": 0,
+      "x": 566,
+      "y": 228,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -614,6 +631,15 @@
         },
         {
           "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "countdownValue",
+            "\"CountDown\""
+          ]
+        },
+        {
+          "type": {
             "value": "Cache"
           },
           "parameters": [
@@ -649,7 +675,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "0.1"
+            "0.2"
           ]
         },
         {
@@ -871,9 +897,174 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "c_xx",
+                    "Animation",
+                    "=",
+                    "\"front\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "c_exc",
+                    "Animation",
+                    "=",
+                    "\"front\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "c_sam",
+                    "Animation",
+                    "=",
+                    "\"front\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "c_kran",
+                    "Animation",
+                    "=",
+                    "\"front\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "c_crane",
+                    "Animation",
+                    "=",
+                    "\"front\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "CountdownText",
+            "Text",
+            "=",
+            "ToString(round(abs(TimerElapsedTime(\"CountDown\")-3)))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"CountDown\"",
+            ">=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "c_xx",
+            "Animation",
+            "=",
+            "\"back\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "c_exc",
+            "Animation",
+            "=",
+            "\"back\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "c_sam",
+            "Animation",
+            "=",
+            "\"back\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "c_kran",
+            "Animation",
+            "=",
+            "\"back\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "c_crane",
+            "Animation",
+            "=",
+            "\"back\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "CountdownText"
+          ]
         }
       ]
     },
@@ -882,6 +1073,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Работа с картами",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3219,6 +3411,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Подсветка карт при попадании",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3537,6 +3730,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Завершение уровня",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3742,6 +3936,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Звук и возврат в меню",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

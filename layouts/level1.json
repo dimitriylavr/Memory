@@ -127,7 +127,7 @@
       "name": "NewSprite",
       "persistentUuid": "1449a85f-aa99-4499-9c92-eb29fc6f471b",
       "width": 1325,
-      "x": -43,
+      "x": -23,
       "y": -100,
       "zOrder": 1,
       "numberProperties": [],
@@ -299,23 +299,6 @@
       "x": 244,
       "y": 617,
       "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 95,
-      "keepRatio": true,
-      "layer": "",
-      "name": "MemTxt",
-      "persistentUuid": "5820f482-f3e1-49e9-beac-1ba54b5aa55c",
-      "width": 538,
-      "x": 354,
-      "y": 0,
-      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -602,7 +585,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "0.1"
+            "0.2"
           ]
         },
         {
@@ -785,7 +768,7 @@
             "CountdownText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountDown\")-3)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountDown\")-5)))"
           ]
         }
       ]
@@ -801,7 +784,7 @@
             "",
             "\"CountDown\"",
             ">=",
-            "3"
+            "5"
           ]
         },
         {
@@ -832,14 +815,6 @@
             "Animation",
             "=",
             "\"back\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "MemTxt"
           ]
         },
         {

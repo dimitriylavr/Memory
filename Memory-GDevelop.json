@@ -25,7 +25,7 @@
     "author": "NotNull",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "D:\\project\\GDevelop\\DONE\\memory",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -93,14 +93,6 @@
   "resources": {
     "resources": [
       {
-        "file": "fcf1639d-a906-4588-9cca-82fdcbfab800_raw.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "fcf1639d-a906-4588-9cca-82fdcbfab800_raw.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Red Button With Shadow_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -137,17 +129,6 @@
         }
       },
       {
-        "file": "assets/CantoraOne-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "CantoraOne-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
-          "name": "CantoraOne-Regular.ttf"
-        }
-      },
-      {
         "file": "assets/Red Button With Shadow_Idle.png2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -165,16 +146,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
-      },
-      {
-        "file": "music/mainMenu.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "music\\mainMenu.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
       },
       {
         "file": "assets/on.png",
@@ -197,86 +168,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\back-icon.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/lvl1.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\lvl1.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/lvl2.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\lvl2.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/lvl3.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\lvl3.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/lvl4.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\lvl4.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/lvl5.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\lvl5.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/lvl6.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\lvl6.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/lvl7.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\lvl7.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/lvl8.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\lvl8.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/lvl9.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\lvl9.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/lvl10.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\lvl10.jpg",
         "smoothed": true,
         "userAdded": false
       },
@@ -361,56 +252,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/lvl_back/lvl_back.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\lvl_back\\lvl_back.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "music/level.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "music\\level.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/cb.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\cb.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/card_back.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\card_back.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/card/card_blank.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\card\\card_blank.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/card/card_back.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\card\\card_back.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/card/c_tractor.png",
         "kind": "image",
         "metadata": "",
@@ -443,30 +284,6 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
-      },
-      {
-        "file": "assets/ExplosionFog-Texture-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ExplosionFog-Texture-2.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/64a424eeec46f355f121c7c3f25a37d39954b746c504a496642c49181467359c_ExplosionFog-Texture-2.png",
-          "name": "ExplosionFog-Texture-2.png"
-        }
-      },
-      {
-        "file": "assets/DarkMagicSmoke.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "DarkMagicSmoke.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/015985f8d1d3aaa13173ebdf90f8e893ccb834accbe76f55adbc9dfabef145f7_DarkMagicSmoke.png",
-          "name": "DarkMagicSmoke.png"
-        }
       },
       {
         "file": "assets/Glow.png",
@@ -525,66 +342,6 @@
         }
       },
       {
-        "file": "assets/Blue Button With Shadow_Hovered.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Blue Button With Shadow_Hovered.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/37288d30c2e013a34e415fb35fffd2f7267ebd031c4380927485d7461708f810_Blue Button With Shadow_Hovered.png",
-          "name": "Blue Button With Shadow_Hovered.png"
-        }
-      },
-      {
-        "file": "assets/Blue Button With Shadow_Idle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Blue Button With Shadow_Idle.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/22930cdc6b25260eef3817f1687842974261b68c84ec2a13d7f32b1a2985240f_Blue Button With Shadow_Idle.png",
-          "name": "Blue Button With Shadow_Idle.png"
-        }
-      },
-      {
-        "file": "assets/Blue Button With Shadow_Pressed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Blue Button With Shadow_Pressed.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/26efbc7581c47b884f5335aa7581999a75b3062aa24062a1a91955e334826d21_Blue Button With Shadow_Pressed.png",
-          "name": "Blue Button With Shadow_Pressed.png"
-        }
-      },
-      {
-        "file": "assets/Bubble.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bubble.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/12254a94cf3e8dbc4bcccadf4f2f761ee0736f0abe7405c4a419fab822ba90ca_Bubble.png",
-          "name": "Bubble.png"
-        }
-      },
-      {
-        "file": "assets/LightGlow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "LightGlow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/GDevelop/c17e2d500015e598624b763f4942b26e3aac96efca094cd20257a61e15b27fcb_LightGlow.png",
-          "name": "LightGlow.png"
-        }
-      },
-      {
         "file": "assets/card/c_crader.png",
         "kind": "image",
         "metadata": "",
@@ -598,16 +355,6 @@
         "metadata": "",
         "name": "assets\\card\\c_kran.png",
         "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "music/select.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "music\\select.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
         "userAdded": false
       },
       {
@@ -688,6 +435,54 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\lvl_back\\lvl_back.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lvl13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lvl13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/card/c_carsam.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\card\\c_carsam.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -1384,48 +1179,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "MemTxt",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "ЗАПОМИНАЙ!",
-      "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 80,
-      "color": {
-        "b": 27,
-        "g": 2,
-        "r": 208
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "ЗАПОМИНАЙ!",
-        "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 80,
-        "color": "208;2;27"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "c_kran",
@@ -1563,7 +1316,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "3",
+      "string": "5",
       "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 240,
@@ -1586,7 +1339,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "3",
+        "text": "5",
         "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -2228,6 +1981,133 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "c_carsam",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Godray",
+          "name": "Effect",
+          "doubleParameters": {
+            "angle": 30,
+            "animationSpeed": 1,
+            "gain": 0.6,
+            "lacunarity": 2.75,
+            "light": 30,
+            "padding": 0,
+            "x": 100,
+            "y": 100
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "parallel": true
+          }
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "back",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\card\\card_back.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 215
+                      },
+                      {
+                        "x": 0,
+                        "y": 215
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\card\\c_carsam.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 0
+                      },
+                      {
+                        "x": 300,
+                        "y": 215
+                      },
+                      {
+                        "x": 0,
+                        "y": 215
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2236,6 +2116,9 @@
       {
         "folderName": "Card",
         "children": [
+          {
+            "objectName": "c_carsam"
+          },
           {
             "objectName": "c_crane"
           },
@@ -2276,9 +2159,6 @@
       },
       {
         "objectName": "Next"
-      },
-      {
-        "objectName": "MemTxt"
       },
       {
         "objectName": "CountdownText"
@@ -2337,6 +2217,26 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level10"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level11"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level12"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level13"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level14"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/levelend"
     }
   ],
   "externalEvents": [],
@@ -2355,39 +2255,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/curvedmovement"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/boomerang"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/parallax"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/objectstack"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/threedflip"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/faceforward"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/arraytools"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/pausefocuslost"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
