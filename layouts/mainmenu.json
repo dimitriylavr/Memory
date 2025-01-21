@@ -1721,42 +1721,40 @@
             ""
           ]
         }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "InstantGamesBridge::IsInizialize"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
       ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "conditions": [],
+          "actions": [
             {
               "type": {
-                "value": "InstantGamesBridge::IsInizialize"
+                "value": "InstantGamesBridge::YandexGameReady"
               },
               "parameters": [
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "InstantGamesBridge::YandexGameReady"
-                  },
-                  "parameters": [
-                    "",
-                    ""
-                  ]
-                }
               ]
             }
           ]
@@ -1988,6 +1986,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Группы кнопок выбора уровня",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

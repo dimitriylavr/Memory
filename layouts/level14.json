@@ -945,6 +945,78 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "c_xx",
+                    "Animation",
+                    "=",
+                    "\"front\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "c_exc",
+                    "Animation",
+                    "=",
+                    "\"front\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "c_sam",
+                    "Animation",
+                    "=",
+                    "\"front\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "c_kran",
+                    "Animation",
+                    "=",
+                    "\"front\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "c_crane",
+                    "Animation",
+                    "=",
+                    "\"front\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "c_tractor",
+                    "Animation",
+                    "=",
+                    "\"front\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -963,7 +1035,7 @@
             "CountdownText",
             "Text",
             "=",
-            "ToString(round(abs(TimerElapsedTime(\"CountDown\")-2)))"
+            "ToString(round(abs(TimerElapsedTime(\"CountDown\")-1)))"
           ]
         }
       ]
@@ -979,7 +1051,7 @@
             "",
             "\"CountDown\"",
             ">=",
-            "2"
+            "1"
           ]
         },
         {
