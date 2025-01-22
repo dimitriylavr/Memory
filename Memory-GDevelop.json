@@ -20,7 +20,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "MemoryKidGame",
+    "name": "На стройке",
     "description": "В этой яркой и красочной игре ваша задача — открывать пары одинаковых карт с изображениями строительной техники. Игра разработана специально для детей, чтобы развивать их память, внимательность и логическое мышление.",
     "author": "NotNull",
     "windowWidth": 1280,
@@ -37,7 +37,7 @@
       "android-icon-72": "",
       "android-icon-96": "",
       "android-windowSplashScreenAnimatedIcon": "",
-      "desktop-icon-512": "",
+      "desktop-icon-512": "icon1.png",
       "ios-icon-100": "",
       "ios-icon-1024": "",
       "ios-icon-114": "",
@@ -483,6 +483,14 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\card\\c_carsam.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "icon1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icon1.png",
         "smoothed": true,
         "userAdded": false
       }
